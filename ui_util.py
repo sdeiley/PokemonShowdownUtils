@@ -10,7 +10,7 @@ def initialize_ui():
 def get_credentials() -> tuple:
     # Add extraneous argument to use local .txt file
     if (len(sys.argv) > 1):
-        with open("credentials.txt", "r") as f:
+        with open("credentials.txt", "r", encoding="utf-8") as f:
             username = f.readline()
             password = f.readline()
     else:

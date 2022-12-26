@@ -52,7 +52,7 @@ def get_replay_htmls(cookie: requests.cookies.RequestsCookieJar, username: str) 
             filepath = REPLAY_FOLDER + "/" + filename
 
             url = ps.BASE_STRING + id + appendix
-            with open(filepath, "w+") as f:
+            with open(filepath, "w+", encoding="utf-8") as f:
                 html = requests.get(url)
                 f.write(html.text)
 
