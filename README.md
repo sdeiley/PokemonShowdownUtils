@@ -9,4 +9,4 @@ Scripts:
 - `get_replay_urls.py` - simple guis take as input Pokemon Showdown username and password and list all replays for the gen9vgc2023series1 format.
 - `get_replay_htmls.py` - simple guis take as input Pokemon Showdown username and password and download .html files for the gen9vgc2023series1 format.
 
-Note: the created html files do not exactly match the files when you navigate to a saved replay url, and select the "Download" button on the page.
+Note: the created html files do not exactly match the files when you navigate to a saved replay url, and select the "Download" button on the page. At this time, these files are not compatible with tools utilizing replay .html files for ad-hoc analysis.
